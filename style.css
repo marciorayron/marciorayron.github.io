@@ -52,25 +52,6 @@ button {
     cursor: pointer;
 }
 
-/* Responsive design using media queries */
-@media (min-width: 768px) {
-    .tabelas {
-        max-width: 768px;
-        margin: 0 auto;
-    }
-
-    .formularios {
-        padding: 30px;
-    }
-
-    input[type="number"] {
-        width: 80%;
-    }
-
-    button {
-        padding: 12px 20px;
-    }
-}
 /* Style for the production table */
 #tabelaProducao {
     width: 100%;
@@ -139,4 +120,24 @@ button {
 #TabelaIndProducao th {
     background-color: #0074d9;
     color: #fff;
+}
+
+/* Responsive design using media queries for tablets and laptops */
+@media (min-width: 768px) {
+    .tabelas {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .formularios {
+        padding: 30px;
+    }
+
+    input[type="number"] {
+        width: 80%;
+    }
+
+    button {
+        padding: 12px 20px;
+    }
 }
