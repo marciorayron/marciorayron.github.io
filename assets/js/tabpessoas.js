@@ -19,10 +19,10 @@ function atualizarTabela() {
   tabEmprestimos.textContent = formPessoasEmprestimos.value;
 
   // Limpe os campos do formulário após a atualização da tabela
-  formPessoasManingAtual.value = "";
-  formPessoasFaltas.value = "";
-  formPessoasFerias.value = "";
-  formPessoasEmprestimos.value = "";
+  //formPessoasManingAtual.value = "";
+  //formPessoasFaltas.value = "";
+  //formPessoasFerias.value = "";
+  //formPessoasEmprestimos.value = "";
 }
 
 
