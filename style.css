@@ -71,3 +71,72 @@ button {
         padding: 12px 20px;
     }
 }
+/* Style for the production table */
+#tabelaProducao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaProducao th, #tabelaProducao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabelaProducao th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the production calculation table */
+#tabelaCalculoProduçao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaCalculoProduçao th, #tabelaCalculoProduçao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabelaCalculoProduçao th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the people table */
+#tabelaPessoas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaPessoas th, #tabelaPessoas td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#tabelaPessoas th {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+/* Style for the production indicators table */
+#TabelaIndProducao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#TabelaIndProducao th, #TabelaIndProducao td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#TabelaIndProducao th {
+    background-color: #0074d9;
+    color: #fff;
+}
