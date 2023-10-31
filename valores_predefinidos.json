@@ -1,0 +1,57 @@
+{
+    "valores": [
+        {
+            "derivativo": 52177248,
+            "tempomont": 1.93620,
+            "tempostd": 2.24104
+        },
+
+        {
+            "derivativo": 52174965,
+            "tempomont": 1.845801,
+            "tempostd": 2.14594
+        },
+
+        {
+            "derivativo": 52174430,
+            "tempomont": 1.96271,
+            "tempostd": 2.30032
+        },
+
+        {
+            "derivativo": 52174422,
+            "tempomont": 1.95435,
+            "tempostd": 2.29136
+        },
+
+        {
+            "derivativo": 52174423,
+            "tempomont": 1.98682,
+            "tempostd": 2.32573
+        },
+
+        {
+            "derivativo": 52174436,
+            "tempomont": 1.89969,
+            "tempostd": 2.21542
+        },
+
+        {
+            "derivativo": 52174425,
+            "tempomont": 1.7049,
+            "tempostd": 2.14594
+        },
+
+        {
+            "derivativo": 52174433,
+            "tempomont": 2.0656,
+            "tempostd": 2.14594
+        },
+
+        {
+            "derivativo": 52174431,
+            "tempomont": 2.0055,
+            "tempostd": 2.14594
+        }
+    ]
+}
