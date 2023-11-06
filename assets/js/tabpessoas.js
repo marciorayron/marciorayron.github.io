@@ -18,11 +18,11 @@ function atualizarTabela() {
   tabFerias.textContent = formPessoasFerias.value;
   tabEmprestimos.textContent = formPessoasEmprestimos.value;
 
-  // Limpe os campos do formulário após a atualização da tabela
-  //formPessoasManingAtual.value = "";
-  //formPessoasFaltas.value = "";
-  //formPessoasFerias.value = "";
-  //formPessoasEmprestimos.value = "";
+  // // Limpe os campos do formulário após a atualização da tabela
+  // formPessoasManingAtual.value = "";
+  // formPessoasFaltas.value = "";
+  // formPessoasFerias.value = "";
+  // formPessoasEmprestimos.value = "";
 }
 
 
@@ -46,7 +46,8 @@ function calcularHoras() {
   document.getElementById("tab-Presentes").textContent = presentes.toFixed(2);
 
   // Passo 6: Criar a constante "hr2t" e definir seu valor em 7,9
-  const hr2t = 7.9;
+  const selectTurno = document.getElementById("selectTurno");
+  const hr2t = parseFloat(selectTurno.value);
 
   // Passo 7: Multiplicar o valor do campo "presentes" por "hr2t" e criar "total-horas"
   let totalHoras = presentes * hr2t;

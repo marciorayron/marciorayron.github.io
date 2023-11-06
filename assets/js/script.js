@@ -4,6 +4,5 @@ function tudo () {
         calcularHoras();
         calcularValores();
 };
-
-
 document.getElementById("btnCalcular").addEventListener("click", tudo);
+
