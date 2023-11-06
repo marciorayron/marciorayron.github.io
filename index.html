@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Relatório de Produção</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,8 +18,9 @@
                     <input type="number" id="formprod-derivativo" required>
 
                     <label for="formprod-pecas">Nº Peças Derivativos:</label>
-                    <input type="number" id="formprod-pecas" required>
-                    <button type="button" id="btnAdicionar">Adicionar</button><BR></BR>
+                    <input type="number" id="formprod-pecas" required><br><br>
+                    <button type="button" id="btnAdicionar">Adicionar</button>
+                    
 
                     <label for="formprod-pecasProgramadas">Peças programadas:</label>
                     <input type="number" id="formprod-pecasProgramadas" required><br><br>
@@ -34,6 +35,13 @@
                 </form>
 
                 <form id class="formPessoas">
+
+                    <label for="selectTurno">Selecione o Turno de Trabalho:</label>
+                    <select id="selectTurno">
+                        <option value="8.3">1º T</option>
+                        <option value="7.9">2º T</option>
+                    </select>
+
                     <label for="formPessoas-maningAtual">Maning Atual:</label>
                     <input type="number" id="formPessoas-maningAtual" name="maningAtual"><br><br>
                     
@@ -50,6 +58,8 @@
                 
              
                 <button id="btnCalcular">Calcular</button>
+                <a href="cadastro.html" id="btnCadastrarDerivativo" class="button">Cadastrar novo Derivativo</a><br><br>
+             
                 
             </div>
 
@@ -153,6 +163,7 @@
     <script src="assets/js/tabpessoas.js"></script>
     <script src="assets/js/tabindproducao.js"></script>
     <script src="assets/js/tabproducao.js"></script>
+    <!-- <script src="cadastrarderivativos.js"></script> -->
 
 
 </body>

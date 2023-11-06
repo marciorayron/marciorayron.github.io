@@ -1,57 +1,347 @@
 {
     "valores": [
         {
-            "derivativo": 52177248,
-            "tempomont": 1.93620,
-            "tempostd": 2.24104
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52173176,
+            "tempomont": 1.7473,
+            "tempostd": 2.0194
         },
-
         {
-            "derivativo": 52174965,
-            "tempomont": 1.845801,
-            "tempostd": 2.14594
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174417,
+            "tempomont": 1.9132,
+            "tempostd": 2.2167
         },
-
         {
-            "derivativo": 52174430,
-            "tempomont": 1.96271,
-            "tempostd": 2.30032
-        },
-
-        {
+            "familia": "ip",
+            "linha": "",
             "derivativo": 52174422,
-            "tempomont": 1.95435,
-            "tempostd": 2.29136
+            "tempomont": 1.9543,
+            "tempostd": 2.2914
         },
-
         {
+            "familia": "ip",
+            "linha": "",
             "derivativo": 52174423,
-            "tempomont": 1.98682,
-            "tempostd": 2.32573
+            "tempomont": 1.9868,
+            "tempostd": 2.3257
         },
-
         {
-            "derivativo": 52174436,
-            "tempomont": 1.89969,
-            "tempostd": 2.21542
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174424,
+            "tempomont": 2.0437,
+            "tempostd": 2.3953
         },
-
         {
+            "familia": "ip",
+            "linha": "",
             "derivativo": 52174425,
             "tempomont": 1.7049,
-            "tempostd": 2.14594
+            "tempostd": 1.9661
         },
-
         {
-            "derivativo": 52174433,
-            "tempomont": 2.0656,
-            "tempostd": 2.14594
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174426,
+            "tempomont": 1.7479,
+            "tempostd": 2.0124
         },
-
         {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174430,
+            "tempomont": 1.9627,
+            "tempostd": 2.3003
+        },
+        {
+            "familia": "ip",
+            "linha": "",
             "derivativo": 52174431,
             "tempomont": 2.0055,
-            "tempostd": 2.14594
+            "tempostd": 2.3464
+        },
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174432,
+            "tempomont": 1.9901,
+            "tempostd": 2.3105
+        },
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174433,
+            "tempomont": 2.0656,
+            "tempostd": 2.4197
+        },
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52177248,
+            "tempomont": 1.9362,
+            "tempostd": 2.2410
+        },
+        {
+            "familia": "small",
+            "linha": "lift gate",
+            "derivativo": 26373472,
+            "tempomont": 0.1655,
+            "tempostd": 0.1797
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26357101,
+            "tempomont": 0.1583,
+            "tempostd": 0.1670
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26357102,
+            "tempomont": 0.2173,
+            "tempostd": 0.2276
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26357103,
+            "tempomont": 0.2242,
+            "tempostd": 0.2406
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26357097,
+            "tempomont": 0.2022,
+            "tempostd": 0.2197
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26357098,
+            "tempomont": 0.2735,
+            "tempostd": 0.3007
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26399394,
+            "tempomont": 0.3207,
+            "tempostd": 0.3497
+        },
+        {
+            "familia": "smalls",
+            "linha": "front door co",
+            "derivativo": 26399393,
+            "tempomont": 0.3269,
+            "tempostd": 0.3577
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door co",
+            "derivativo": 26357115,
+            "tempomont": 0.1338,
+            "tempostd": 0.1373
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door co",
+            "derivativo": 26357116,
+            "tempomont": 0.2016,
+            "tempostd": 0.2159
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door co",
+            "derivativo": 26432054,
+            "tempomont": 0.1282,
+            "tempostd": 0.1317
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door co",
+            "derivativo": 26432056,
+            "tempomont": 0.1942,
+            "tempostd": 0.2084
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door co",
+            "derivativo": 26432057,
+            "tempomont": 0.1699,
+            "tempostd": 0.1792
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door",
+            "derivativo": 26357108,
+            "tempomont": 0.1338,
+            "tempostd": 0.1373
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door",
+            "derivativo": 26357109,
+            "tempomont": 0.2016,
+            "tempostd": 0.2159
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door",
+            "derivativo": 26357110,
+            "tempomont": 0.1785,
+            "tempostd": 0.1880
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door",
+            "derivativo": 26432050,
+            "tempomont": 0.1370,
+            "tempostd": 0.1405
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear door",
+            "derivativo": 26432053,
+            "tempomont": 0.1788,
+            "tempostd": 0.1881
+        },
+        {
+            "familia": "smalls",
+            "linha": "front bumper",
+            "derivativo": 26362447,
+            "tempomont": 0.2044,
+            "tempostd": 0.2232
+        },
+        {
+            "familia": "smalls",
+            "linha": "front bumper",
+            "derivativo": 26362448,
+            "tempomont": 0.3604,
+            "tempostd": 0.4129
+        },
+        {
+            "familia": "smalls",
+            "linha": "front bumper",
+            "derivativo": 26362449,
+            "tempomont": 0.1948,
+            "tempostd": 0.2071
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26321272,
+            "tempomont": 0.2394,
+            "tempostd": 0.2884
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26321273,
+            "tempomont": 0.2877,
+            "tempostd": 0.3466
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26321275,
+            "tempomont": 0.1091,
+            "tempostd": 0.1313
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26342625,
+            "tempomont": 0.1836,
+            "tempostd": 0.2231
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26342626,
+            "tempomont": 0.2885,
+            "tempostd": 0.3494
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26342627,
+            "tempomont": 0.3364,
+            "tempostd": 0.4071
+        },
+        {
+            "familia": "smalls",
+            "linha": "rear bumper",
+            "derivativo": 26342630,
+            "tempomont": 0.1353,
+            "tempostd": 0.1638
+        },
+        {
+            "familia": "smalls",
+            "linha": "fuel injector",
+            "derivativo": 25201134,
+            "tempomont": 0.1380,
+            "tempostd": 0.1750
+        },
+        {
+            "familia": "smalls",
+            "linha": "ip ext",
+            "derivativo": 26415442,
+            "tempomont": 0.1780,
+            "tempostd": 0.1871
+        },
+        {
+            "familia": "smalls",
+            "linha": "roof android",
+            "derivativo": 52173943,
+            "tempomont": 0.1173,
+            "tempostd": 0.1301
+        },
+        {
+            "familia": "smalls",
+            "linha": "roof android",
+            "derivativo": 52173941,
+            "tempomont": 0.1377,
+            "tempostd": 0.1536
+        },
+        {
+            "familia": "smalls",
+            "linha": "roof android",
+            "derivativo": 52173939,
+            "tempomont": 0.1410,
+            "tempostd": 0.1574
+        },
+        {
+            "familia": "smalls",
+            "linha": "roof android",
+            "derivativo": 52173938,
+            "tempomont": 0.1850,
+            "tempostd": 0.2138
+        },
+        {
+            "familia": "smalls",
+            "linha": "console pelzer",
+            "derivativo": 26373476,
+            "tempomont": 0.0532,
+            "tempostd": 0.0540
+        },
+        {
+            "familia": "smalls",
+            "linha": "console pelzer",
+            "derivativo": 26373475,
+            "tempomont": 0.0705,
+            "tempostd": 0.0725
+        },
+        {
+            "familia": "smalls",
+            "linha": "console pelzer",
+            "derivativo": 26373473,
+            "tempomont": 0.0769,
+            "tempostd": 0.0823
         }
     ]
 }
