@@ -73,9 +73,6 @@ ul li:nth-child(even) {
     background-color: #0056a6;
 }
 
-.button-container {
-        margin-bottom:10px;
-    }
 
 @media (min-width: 768px) {
 
