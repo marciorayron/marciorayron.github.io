@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+label,
+input,
+button,
+select {
+    display: block;
+    margin: 10px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    text-align: center;
+}
+
+button,
+select {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0074d9;
+    color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+}
+
+ul li:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056a6;
+}
+
+@media (min-width: 768px) {
+
+    /* Estilos para tablets e telas maiores */
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .formularios {
+        padding: 30px;
+        width: 80%;
+    }
+
+    input[type="number"]  {
+        width: 96.5%;
+    }
+
+    button, ul, select {
+        padding: 12px 20px;
+        width: 98%;
+    }
+    
+    .button-container {
+        text-align: center;
+    }
+
+    button {
+        padding: 12px 20px;
+        width: 18%;
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+    }
+}
