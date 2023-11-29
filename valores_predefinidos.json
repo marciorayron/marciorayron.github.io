@@ -1,5 +1,27 @@
 {
     "valores": [
+        
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 552177247,
+            "tempomont": 1.7049,
+            "tempostd": 1.9661
+        },
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 52174436,
+            "tempomont": 1.8997,
+            "tempostd": 2.2154
+        },
+        {
+            "familia": "ip",
+            "linha": "",
+            "derivativo": 5252174430,
+            "tempomont": 1.9627,
+            "tempostd": 2.3003
+        },
         {
             "familia": "ip",
             "linha": "",
