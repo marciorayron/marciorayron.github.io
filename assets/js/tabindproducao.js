@@ -29,11 +29,9 @@ function calcularValores() {
 
 
     // Calcular a eficiência
-    let totalHrsStd = parseFloat(document.getElementById("total_hrs_std").textContent);
+    let totalHrsMont = parseFloat(document.getElementById("total_hrs_mont").textContent);
     let totalHoras = parseFloat(document.getElementById("tab-TotalHRH").textContent);
-    let mostraeficienciaReal = (totalHrsStd / totalHoras) * 100;
+    let mostraeficienciaReal = (totalHrsMont / totalHoras) * 100;
     document.getElementById("eficiencia-real").textContent = mostraeficienciaReal.toFixed(2) + "%";
 }
-
-// document.getElementById("btnCalcular2").addEventListener("click", calcularValores);
 
