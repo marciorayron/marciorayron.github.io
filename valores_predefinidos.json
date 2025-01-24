@@ -1,0 +1,63 @@
+{
+    "valores": [
+        
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186102,
+            "tempomont": 4.6360,
+            "tempostd": 4.6360
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186103,
+            "tempomont": 4.4679,
+            "tempostd": 4.4679
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186104,
+            "tempomont": 4.7413,
+            "tempostd": 4.7413
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186106,
+            "tempomont": 4.7482,
+            "tempostd": 4.7482
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186107,
+            "tempomont": 4.9446,
+            "tempostd": 4.9446
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186108,
+            "tempomont": 4.2126,
+            "tempostd": 4.2126
+        },
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186111,
+            "tempomont": 4.4261,
+            "tempostd": 4.4261
+        }
+        ,
+        {
+            "familia": "spin",
+            "linha": "body",
+            "derivativo": 52186111,
+            "tempomont": 4.3931,
+            "tempostd": 4.3931
+        }
+
+    ]
+}

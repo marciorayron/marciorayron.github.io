@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Produção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="tabelas">
+        <div class="principal">
+
+            <div class="formularios">
+                <form id="formprod"> 
+                    <label for="formprod-derivativo">ID Derivativo:</label>
+                    <input type="number" id="formprod-derivativo" required>
+
+                    <label for="formprod-pecas">Nº Peças Derivativos:</label>
+                    <input type="number" id="formprod-pecas" required><br><br>
+                    <button type="button" id="btnAdicionar">Adicionar</button>
+                    
+
+                    <label for="formprod-pecasProgramadas">Peças programadas:</label>
+                    <input type="number" id="formprod-pecasProgramadas" required><br><br>
+
+                    <label for="formprod-metaPecas1hr">Meta Peças 1ºhr:</label>
+                    <input type="number" id="formprod-metaPecas1hr" required><br><br>
+
+                    <label for="formprod-qntRealPecas1hr">Qnt Real Peças 1ºhr:</label>
+                    <input type="number" id="formprod-qntRealPecas1hr" required><br><br>
+
+                    
+                </form>
+
+                <form id class="formPessoas">
+
+                    <label for="selectTurno">Selecione o Turno de Trabalho:</label>
+                    <select id="selectTurno">
+                        <option value="8.3">1º T</option>
+                        <option value="7.97">2º T</option>
+                    </select>
+
+                    <label for="formPessoas-maningAtual">Maning Atual:</label>
+                    <input type="number" id="formPessoas-maningAtual" name="maningAtual"><br><br>
+                    
+                    <label for="formPessoas-faltas">Faltas:</label>
+                    <input type="number" id="formPessoas-faltas" name="faltas"><br><br>
+                    
+                    <label for="formPessoas-ferias">Férias:</label>
+                    <input type="number" id="formPessoas-ferias" name="ferias"><br><br>
+                    
+                    <label for="formPessoas-emprestimos">Empréstimos:</label>
+                    <input type="number" id="formPessoas-emprestimos" name="emprestimos"><br><br>
+                </form>
+                
+                
+             
+                <button id="btnCalcular">Calcular</button>
+                <a href="cadastro.html" id="btnCadastrarDerivativo" class="button">Cadastrar novo Derivativo</a><br><br>
+             
+                
+            </div>
+
+                <table border="1" id="tabelaProducao">
+                    <tr>
+                        <th>Derivativo</th>
+                        <th>Tempo Mont.</th>
+                        <th>Tempo STD</th>
+                        <th>Peças</th>
+                        <th>HRS Mont</th>
+                        <th>HRS STD</th>
+                    </tr>
+                </table>
+
+                 <table border="1" id="tabelaCalculoProduçao">
+                <tr>
+                    <th>Total Peças</th>
+                    <th>Total HrsMont</th>
+                    <th>Total HrsStd</th>
+                </tr>
+                <tr>
+                    <td id="total_pecas"></td>
+                    <td id="total_hrs_mont"></td>
+                    <td id="total_hrs_std"></td>
+                </tr>
+            </table>
+
+            <table border="1" id="tabelaPessoas" class="pessoas">
+                <tr>
+                    <th colspan="2">Pessoas</th>
+                </tr>
+                <tr>
+                    <td>Mannig Atual</td>
+                    <td id="Tab-mannig" class="espaçamento-tabelas-coluna"></td>
+                <tr>
+                    <td>Faltas</td>
+                    <td id="tab-Faltas" class="espaçamento-tabelas-coluna"></td>
+                <tr>
+                    <td>Férias</td>
+                    <td id="tab-Ferias" class="espaçamento-tabelas-coluna"></td>
+                <tr>
+                    <td>Empréstimos</td>
+                    <td id="tab-Emprestimos" class="espaçamento-tabelas-coluna"></td>
+                </tr>
+                <tr>
+                    <td>Presentes</td>
+                    <td id="tab-Presentes" class="espacamento"  name="presentes"></td>
+                </tr>
+                <tr>
+                    <td>Total Hrs.H.</td>
+                    <td id="tab-TotalHRH" class="espaçamento-tabelas-coluna" name="total-horas">
+                    </td>
+                </tr>
+            </table>
+
+            <table border="1" id="TabelaIndProducao" class="indProducao">
+                <tr>
+                    <th colspan="3">Indicadores de Produção</th>
+                </tr>
+                <tr>
+                    <td>Indicador</td>
+                    <td class="espaçamento-tabelas-colunas">Meta</td>
+                    <td class="espaçamento-tabelas-colunas">Real</td>
+                </tr>
+                <tr>
+                    <td>Absenteísmo</td>
+                    <td class="espaçamento-tabelas-colunas" id="absenteismo-meta">2,9%</td>
+                    <td class="espaçamento-tabelas-colunas" id="absenteismo-real" name="absenteismo-real">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Primeira Hora %</td>
+                    <td class="espaçamento-tabelas-colunas" id="primeira-hora-porcen-meta"
+                        name="primeira-hora-porcen-meta">95%</td>
+                    <td class="espaçamento-tabelas-colunas" id="primeira-hora-porcen-real"
+                        name="primeira-hora-porcen-real"></td>
+                </tr>
+                <tr>
+                    <td>Primeira Hora (QTD)</td>
+                    <td id="tab-PrimeiraHoraQntMeta" class="espaçamento-tabelas-colunas"></td>
+                    <td id="tab-PrimeiraHoraQntReal" class="espaçamento-tabelas-colunas"></td>
+                </tr>
+                <tr>
+                    <td>Aderência</td>
+                    <td class="espaçamento-tabelas-colunas" id="aderencia-meta">98%</td>
+                    <td class="espaçamento-tabelas-colunas" id="aderencia-real" name="aderencia-real"></td>
+                </tr>
+                <tr>
+                    <td>Eficiência</td>
+                    <td class="espaçamento-tabelas-colunas" id="eficiencia-meta" name="eficiencia-meta"></td>
+                    <td class="espaçamento-tabelas-colunas" id="eficiencia-real" name="eficiencia-real"></td>
+                </tr>
+
+
+            </table>
+        </div>
+    </section>
+ 
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/tabpessoas.js"></script>
+    <script src="assets/js/tabindproducao.js"></script>
+    <script src="assets/js/tabproducao.js"></script>
+    <!-- <script src="cadastrarderivativos.js"></script> -->
+
+
+</body>
+
+</html>
